@@ -1,4 +1,13 @@
 from textblob import TextBlob
+from countries import *
+from films import *
+from historical_era import *
+from Hobbies import *
+from Hollywood import *
+from instru import *
+from musician import *
+from musictype import *
+
 
 liste_series_brute=["Beavis and Butt-Head","The Good Wife","Avatar: The Last Airbender","Dr. Katz, Professional Therapist"
     ,"Happy Days","Will & Grace","Justified","Golden Girls","Frasier","Good Times","Soap","Rome","Boardwalk Empire",
@@ -93,3 +102,9 @@ liste_hollywood = ["Stanley Kubrick","Tarantino","Francis Ford Coppola","Tim Bur
                  "Disney","Pixar","Angelina Jolie","Brad Pitt","Ben Affleck","Jennifer Aniston","Leonardo DiCaprio",
                 "Charlize Theron","Jennifer Lopez","Megan Fox","Nathalie Portman","Julia Roberts","Johnny Depp",
                  "Nicole Kidman","Sandra Bullock","Scarlett Johansson","Netflix","Disney"]
+
+
+main_list=[liste_hollywood,liste_series_brute,liste_animaux_brutes,liste_pays_fr,liste_parti_politique_brute,liste_sport_brute,
+           musictype, historical_era,hobbies, instru,countries,musician, ]
+
+#print(main_list)
